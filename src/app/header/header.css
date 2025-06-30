@@ -1,0 +1,21 @@
+header{
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    /* background-color: red; */
+    padding: 2mm;
+
+}
+
+nav{
+    background-color: #1a1a1a;
+    padding: 1mm;
+    padding-right: 3mm;
+    padding-left: 3mm;
+    border-radius: 5mm;}
+ul{
+    display: flex;
+    color: rgba(255, 255, 255, 0.8);
+    gap: 5mm;
+    font-weight: bold;
+}

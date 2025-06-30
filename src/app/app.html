@@ -1,1 +1,25 @@
-<h1>Hello World</h1>
+<div class="relative h-full w-full">
+  <!-- background -->
+  <div class="fixed inset-0 z-0 bg-black">
+    <div class="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"></div>
+    <div class="absolute left-0 right-0 top-[-10%] h-[1000px] w-[1000px] rounded-full bg-[radial-gradient(circle_400px_at_50%_300px,#fbfbfb36,#000)]"></div>
+  </div>
+ <!-- background -->
+
+  <div class="relative z-1">
+    <app-header></app-header>
+
+    <app-card>
+      <h1 class="text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl dark:text-white">
+        Hola, soy Víctor Echevarría
+      </h1>
+      <p class="mt-6 text-xl text-gray-800 dark:[&amp;>strong]:text-yellow-200 [&amp;>strong]:text-yellow-500 [&amp;>strong]:font-semibold dark:text-gray-300">
+        Recién graduado en Desarrollo de Aplicaciones Web.
+        <strong class="text-amber-200">Junior Full-Stack Developer</strong>
+        de Barcelona, España 🇪🇸. Apasionado por la tecnologia e ideas inovadoras
+      </p>
+    </app-card>
+
+    <app-experience></app-experience>
+  </div>
+</div>
