@@ -14,6 +14,14 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
 
+      - name: Clean install with cache
+        run: |
+          rm -rf node_modules package-lock.json
+          npm install
+
+      - name: Rebuild native modules
+        run: npm rebuild
+
       - name: Install Dependencies
         run: npm install
 
