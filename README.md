@@ -12,6 +12,8 @@ Este repositorio contiene el código fuente de mi portfolio profesional, diseña
 
 ![Static Badge](https://img.shields.io/badge/Angular-red?style=flat) ![Static Badge](https://img.shields.io/badge/CSS-Tailwind-blue?style=flat)
 
+Este proyecto está automatizado para su despliegue usando las herramientas de CI/CD de github.
+
 
 ## Características
 
